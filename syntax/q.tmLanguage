@@ -59,6 +59,22 @@
 			<string>other.source.q</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.function.q</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Custom functions</string>
+			<key>match</key>
+			<string>(?=(\W|\b))((\.\w+)+)(?=(\W|\b))</string>
+			<key>name</key>
+			<string>other.source.q</string>
+		</dict>
+		<dict>
 			<key>comment</key>
 			<string>string</string>
 			<key>match</key>
@@ -99,9 +115,17 @@
 			<key>comment</key>
 			<string>q adverbs and shortcut</string>
 			<key>match</key>
-			<string>[!$@\\/_#?|',`(\\:)]</string>
+			<string>[!$@\\/_#?=|\$=&lt;\$=&gt;~',`(\\:)]</string>
 			<key>name</key>
 			<string>support.function.q</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>brackets</string>
+			<key>match</key>
+			<string>[\[\]]</string>
+			<key>name</key>
+			<string>support.brackets.q</string>
 		</dict>
 		<dict>
 			<key>comment</key>
