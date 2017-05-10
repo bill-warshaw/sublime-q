@@ -24,6 +24,14 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>important comment</string>
+			<key>match</key>
+			<string>\s/.*(TODO|todo).*|^/.*(TODO|todo).*</string>
+			<key>name</key>
+			<string>comment.important.line.source.q</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>comment exit</string>
 			<key>match</key>
 			<string>\s/.*|^/.*</string>
@@ -115,7 +123,7 @@
 			<key>comment</key>
 			<string>q adverbs and shortcut</string>
 			<key>match</key>
-			<string>[!$@\\/_#?=|\$=&lt;\$=&gt;~',`(\\:)]</string>
+			<string>[!$@\\/_#?=|\$=&lt;\$=&gt;\$=&amp;^+%*~',`(\\:)]</string>
 			<key>name</key>
 			<string>support.function.q</string>
 		</dict>
