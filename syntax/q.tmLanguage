@@ -251,6 +251,14 @@
 			<key>name</key>
 			<string>other.source.q</string>
 		</dict>
+		<dict>
+			<key>comment</key>
+			<string>nulls</string>
+			<key>match</key>
+			<string>(0Ng|0Nh|0Ni|0Nj|0N|0Ne|0n|0Np|0Nm|0Nd|0Nz|0Nn|0Nu|0Nv|0Nt)</string>
+			<key>name</key>
+			<string>constant.numeric.null.source.q</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.q</string>
