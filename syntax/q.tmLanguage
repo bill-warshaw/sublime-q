@@ -26,7 +26,7 @@
 			<key>comment</key>
 			<string>important comment</string>
 			<key>match</key>
-			<string>\s/.*(TODO|todo).*|^/.*(TODO|todo).*</string>
+			<string>\s/.*(TODO|todo|FUTURE|PERF).*|^/.*(TODO|todo|FUTURE|PERF).*</string>
 			<key>name</key>
 			<string>comment.important.line.source.q</string>
 		</dict>
